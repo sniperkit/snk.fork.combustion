@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package combustion
 
 import (
@@ -17,10 +22,11 @@ import (
 	iconfig "github.com/coreos/ignition/config"
 	"github.com/coreos/ignition/config/validate"
 	"github.com/coreos/ignition/config/validate/report"
-	"github.com/src-d/combustion/transpiler"
 	"gopkg.in/src-d/go-billy.v2"
 	"gopkg.in/src-d/go-billy.v2/osfs"
 	"gopkg.in/yaml.v1"
+
+	"github.com/sniperkit/snk.fork.combustion/transpiler"
 )
 
 // FileSystem used in any file operation

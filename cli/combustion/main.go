@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -6,7 +11,8 @@ import (
 	"path/filepath"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/src-d/combustion"
+
+	"github.com/sniperkit/snk.fork.combustion"
 )
 
 const AppName = "combustion"
